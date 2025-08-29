@@ -1,0 +1,4 @@
+name: GrilexNewsPlugin
+version: '${project.version}'
+main: grilex.grilexnewsplugin.GrilexNewsPlugin
+api-version: '1.16'
