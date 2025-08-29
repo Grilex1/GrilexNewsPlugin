@@ -1,0 +1,23 @@
+#все цвета сгенерированы тут: https://www.birdflop.com/resources/rgb/ , color format - [COLOR=#rrggbb][/COLOR]
+command:
+  reload: '[COLOR=#ACBFAF]У[/COLOR][COLOR=#AAC6B7]с[/COLOR][COLOR=#A9CCBE]п[/COLOR][COLOR=#A7D3C6]е[/COLOR][COLOR=#A5DACE]ш[/COLOR][COLOR=#A3E1D6]н[/COLOR][COLOR=#A2E7DD]о[/COLOR] [COLOR=#88D9D9]п[/COLOR][COLOR=#70C4CD]е[/COLOR][COLOR=#57AFC2]р[/COLOR][COLOR=#3F9AB6]е[/COLOR][COLOR=#2785AA]з[/COLOR][COLOR=#2589B4]а[/COLOR][COLOR=#228DBD]г[/COLOR][COLOR=#2091C7]р[/COLOR][COLOR=#1D94D0]у[/COLOR][COLOR=#1B98DA]ж[/COLOR][COLOR=#189CE3]е[/COLOR][COLOR=#16A0ED]н[/COLOR]'
+  help:
+    #стандартный вывод субкоманды выглядит так:
+    #============-> before
+    #команда(синтаксис) - что делает
+    #============ -> after
+    before: ''
+    after: ''
+
+
+exception:
+  menu:
+    name_exception: '[COLOR=#ED0000]П[/COLOR][COLOR=#ED0000]р[/COLOR][COLOR=#E81818]о[/COLOR][COLOR=#E32F2F]б[/COLOR][COLOR=#DE4747]л[/COLOR][COLOR=#D85E5E]е[/COLOR][COLOR=#D37676]м[/COLOR][COLOR=#CE8D8D]а[/COLOR] [COLOR=#D28C8C]с[/COLOR] [COLOR=#E45959]н[/COLOR][COLOR=#ED4040]а[/COLOR][COLOR=#F62626]з[/COLOR][COLOR=#FF0D0D]в[/COLOR][COLOR=#FF0D0D]а[/COLOR][COLOR=#FF0D0D]н[/COLOR][COLOR=#FF0D0D]и[/COLOR][COLOR=#FF0D0D]е[/COLOR][COLOR=#FF0D0D]м[/COLOR]'
+    size_exception: '[COLOR=#ED0000]П[/COLOR][COLOR=#ED0000]р[/COLOR][COLOR=#EA0F0F]о[/COLOR][COLOR=#E61E1E]б[/COLOR][COLOR=#E32D2D]л[/COLOR][COLOR=#E03C3C]е[/COLOR][COLOR=#DD4B4B]м[/COLOR][COLOR=#D95A5A]а[/COLOR] [COLOR=#D37878]с[/COLOR] [COLOR=#CC9696]р[/COLOR][COLOR=#C9A5A5]а[/COLOR][COLOR=#CF9494]з[/COLOR][COLOR=#D58383]м[/COLOR][COLOR=#DB7272]е[/COLOR][COLOR=#E16161]р[/COLOR][COLOR=#E75151]о[/COLOR][COLOR=#ED4040]м[/COLOR] [COLOR=#F91E1E]и[/COLOR][COLOR=#FF0D0D]н[/COLOR][COLOR=#FF0D0D]в[/COLOR][COLOR=#FF0D0D]е[/COLOR][COLOR=#FF0D0D]н[/COLOR][COLOR=#FF0D0D]т[/COLOR][COLOR=#FF0D0D]а[/COLOR][COLOR=#FF0D0D]р[/COLOR][COLOR=#FF0D0D]я[/COLOR]'
+
+prompt:
+  add_book_prompt:
+    - '&bчто бы добавить новость'
+    - '&bтребуется нажать на '
+    - '&bклавишу Q по книге с пером'
+    - '&bдействительно пока открыт инвентарь!'

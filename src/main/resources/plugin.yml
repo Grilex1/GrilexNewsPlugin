@@ -2,3 +2,24 @@ name: GrilexNewsPlugin
 version: '${project.version}'
 main: grilex.grilexnewsplugin.GrilexNewsPlugin
 api-version: '1.16'
+commands:
+  news:
+    usage: /news [create|reload|help]
+    permission: newsplugin.news
+    permission-message: "§cУ вас нет прав на эту команду!"
+
+permissions:
+  News.bypass:
+    default: op
+  News.use:
+    default: op
+    children:
+      News.create: false
+      News.reload: false
+      News.help: false
+  News.create:
+    default: op
+  News.help:
+    default: op
+  News.reload:
+    default: op

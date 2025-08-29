@@ -1,0 +1,82 @@
+#все цвета сгенерированы тут: https://www.birdflop.com/resources/rgb/
+guis:
+  news:
+    name: "Новости (%current_page% / %total_page%)"
+    #данный параметр ОБЯЗАТЕЛЕН только для много страничных инвентарей
+    is_paginated: tru
+    #данный параметр НЕ МЕНЯТЬ
+    table: 'clean'
+    schema:
+      - "........."
+      - "........."
+      - "........."
+      - "........."
+      - "........."
+      - "<#######>"
+    items:
+      "#":
+        material: LIGHT_GRAY_STAINED_GLASS
+        name: " "
+      "<":
+        material: PLAYER_HEAD
+        player: 'MHF_ArrowLeft'
+        name: '{"text":"","extra":[{"text":"П","color":"#87CDB9"},{"text":"р","color":"#7FC6B4"},{"text":"е","color":"#76BFAE"},{"text":"д","color":"#6EB9A9"},{"text":"ы","color":"#66B2A3"},{"text":"д","color":"#5DAB9E"},{"text":"у","color":"#5DAB9E"},{"text":"щ","color":"#55A498"},{"text":"а","color":"#4D9E93"},{"text":"я","color":"#44978D"},{"text":" "},{"text":"с","color":"#3A947B"},{"text":"т","color":"#37976D"},{"text":"р","color":"#359B60"},{"text":"а","color":"#329F52"},{"text":"н","color":"#30A245"},{"text":"и","color":"#2DA637"},{"text":"ц","color":"#2BA92A"},{"text":"а","color":"#28AD1C"}]}'
+        #предназначен для перелиствания страниц , можно самостоятельно менять количество страниц , перелистываемых страниц за раз
+        page_offset: -1
+        offset_click_type: 'LEFT'
+      ">":
+        material: PLAYER_HEAD
+        player: 'MHF_ArrowRight'
+        name: '{"text":"","extra":[{"text":"С","color":"#87CDB9"},{"text":"л","color":"#7FC6B4"},{"text":"е","color":"#76BFAE"},{"text":"д","color":"#6EB9A9"},{"text":"у","color":"#66B2A3"},{"text":"ю","color":"#5DAB9E"},{"text":"щ","color":"#55A498"},{"text":"а","color":"#4D9E93"},{"text":"я","color":"#44978D"},{"text":" "},{"text":"с","color":"#3A947B"},{"text":"т","color":"#37976D"},{"text":"р","color":"#359B60"},{"text":"а","color":"#329F52"},{"text":"н","color":"#30A245"},{"text":"и","color":"#2DA637"},{"text":"ц","color":"#2BA92A"},{"text":"а","color":"#28AD1C"}]}'
+        page_offset: 1
+        offset_click_type: 'LEFT'
+  draft:
+    name: "Черновик (%current_page% / %total_page%)"
+    #данный параметр ОБЯЗАТЕЛЕН только для много страничных инвентарей
+    is_paginated: true
+    table: 'drafts'
+    schema:
+      - "........."
+      - "........."
+      - "........."
+      - "........."
+      - "........."
+      - "<#######>"
+    items:
+      "#":
+        material: LIGHT_GRAY_STAINED_GLASS
+        name: " "
+      "<":
+        material: PLAYER_HEAD
+        player: 'MHF_ArrowLeft'
+        name: '{"text":"","extra":[{"text":"П","color":"#87CDB9"},{"text":"р","color":"#7FC6B4"},{"text":"е","color":"#76BFAE"},{"text":"д","color":"#6EB9A9"},{"text":"ы","color":"#66B2A3"},{"text":"д","color":"#5DAB9E"},{"text":"у","color":"#5DAB9E"},{"text":"щ","color":"#55A498"},{"text":"а","color":"#4D9E93"},{"text":"я","color":"#44978D"},{"text":" "},{"text":"с","color":"#3A947B"},{"text":"т","color":"#37976D"},{"text":"р","color":"#359B60"},{"text":"а","color":"#329F52"},{"text":"н","color":"#30A245"},{"text":"и","color":"#2DA637"},{"text":"ц","color":"#2BA92A"},{"text":"а","color":"#28AD1C"}]}'
+        page_offset: -1
+        offset_click_type: 'LEFT'
+      ">":
+        material: PLAYER_HEAD
+        player: 'MHF_ArrowRight'
+        name: '{"text":"","extra":[{"text":"С","color":"#87CDB9"},{"text":"л","color":"#7FC6B4"},{"text":"е","color":"#76BFAE"},{"text":"д","color":"#6EB9A9"},{"text":"у","color":"#66B2A3"},{"text":"ю","color":"#5DAB9E"},{"text":"щ","color":"#55A498"},{"text":"а","color":"#4D9E93"},{"text":"я","color":"#44978D"},{"text":" "},{"text":"с","color":"#3A947B"},{"text":"т","color":"#37976D"},{"text":"р","color":"#359B60"},{"text":"а","color":"#329F52"},{"text":"н","color":"#30A245"},{"text":"и","color":"#2DA637"},{"text":"ц","color":"#2BA92A"},{"text":"а","color":"#28AD1C"}]}'
+        page_offset: 1
+        offset_click_type: 'LEFT'
+  edit:
+    name: 'редактирование'
+    schema:
+      - "........."
+      - "....b...."
+      - "........."
+    items:
+      "b":
+        material: WRITABLE_BOOK
+        name: "§x§A§2§8§4§E§DЧ§x§A§8§A§3§E§Eе§x§A§E§C§2§E§Fр§x§B§3§E§0§E§Fн§x§B§9§F§F§F§0о§x§A§6§D§4§D§Bв§x§9§3§A§A§C§6и§x§8§0§7§F§B§1к"
+        lore:
+          - '&fдля добавления нового черновика '
+          - '&fтребуется нажатие левую клавишу мышки '
+          - '&fдля просмотра "временно" отложенных записей'
+          - '&fтребуется нажатие правой клавиши мышки'
+        #данный параметр отвечает за перемещение по инвенторям , если что ,
+        #имя писать не название инвентаря , а то что прописано в конфиге пример edit -> название , name -> имя
+        link: "draft"
+        link_click_type: 'RIGHT'
+        #работает с конфигом message.yml , прописывается название с конфига
+        prompt: "add_book_prompt"
+        prompt_click_type: 'LEFT'

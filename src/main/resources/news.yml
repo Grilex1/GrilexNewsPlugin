@@ -1,0 +1,15 @@
+#все цвета сгенерированы тут: https://www.birdflop.com/resources/rgb/
+keywords:
+ open_news: 'LEFT'
+ delete_news: 'SHIFT_RIGHT'
+ migration: 'SHIFT_LEFT'
+name:
+ news_name: 'Обновление'
+ draft_name: 'черновик'
+ author: '[SERVER]'
+ lore:
+  - 'Для перемещение из раздела черновиков, '
+  - 'в раздел новостные сводки необходимо:'
+  - 'Shift+ЛКМ(Доступно только в черновиках)'
+  - 'Для удаления из раздела , '
+  - 'необходимо: Shift+ПКМ'
